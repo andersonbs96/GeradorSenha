@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Exercicio 03</title>
+    </head>
+    <body>
+        <main>
+            <h1>Gerador de Senha</h1>
+            <input class="classInput" id="tamanhoSenha" type="number" min="6" max="20" oninput="atualizarTamSenha(this.value)">
+            <p class="p_input">Tamanho da Senha: (Min: 6 e Max: 20)</p>
+            <input class="classInput" id="quantidadeSenha" type="number" min="1" max="10">
+            <p class="p_input">Quantidade de senhas: (Min: 1 e Max 10)</p>
+            <button class="btnSenha_1" id="btnGerar" onclick="gerarSenhas()">Gerar Senhas</button>
+            <br>
+            <ul>
+                <li class="li_checkbox"><input class="classCheck" id="gerarMaiChars" type="checkbox">Incluir letras maiusculas</li>
+                <li class="li_checkbox"><input class="classCheck" id="gerarNums" type="checkbox">Incluir números</li>
+                <li class="li_checkbox"><input class="classCheck" id="gerarSpChars" type="checkbox">Incluir caracteres especiais</li>
+            </ul>
+            <textarea id="receberSenhas" rows="10" cols="40"></textarea>
+            <br>
+            <button class="btnSenha_2" id="btnLimpar" onclick="limparSenhas()">Limpar Senhas</button>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>

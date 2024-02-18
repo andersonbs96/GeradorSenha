@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap')
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: #ffffff;
+	width: auto;
+	font-family: Noto Sans, sans-serif;
+}
+main {
+	background-color: #d5d5d5;
+	margin: 10px 40px 10px 40px;
+	border-color: #ff1111;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 5px;
+	text-align: center;
+	justify-content: center;
+	height: auto;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	padding: 10px 0px 50px 0px;
+	text-transform: uppercase;
+}
+.classInput {
+	background-color: #c5c5c5;
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 25px;
+	display: inline-flex;
+	border-color: #d52a2a;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 5px;
+}
+.p_input {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0px 0px 20px 0px;
+}
+.btnSenha_1 {
+	background-color: #9a9a9a;
+	width: 250px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-color: #d52a2a;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 5px;
+
+}
+.btnSenha_1:hover {
+	background-color: #ff1111;
+	border-color: #9b9b9b;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 5px;
+}
+ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+ul li .classCheck {
+	width: 20px;
+	height: 20px;
+}
+.li_checkbox {
+	font-size: 15px;
+	font-weight: 200;
+	padding: 5px 0px 0px 5px;
+}
+textarea{
+	width: 200px;
+	height: 100px;
+	border-color: #d52a2a;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 5px;
+	margin: 10px 0px 20px 0px;
+	font-size: 15px;
+	text-align: center;
+	font-style: italic;
+	text-decoration: none;
+}
+.btnSenha_2 {
+	background-color: #9a9a9a;
+	width: 250px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-color: #d52a2a;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 5px;
+	margin: 10px 0px 20px 0px;
+}
+.btnSenha_2:hover{
+	background-color: #ff1111;
+	border-color: #9b9b9b;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+
